@@ -1,0 +1,170 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+header {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid #ffcc00;
+}
+
+.tagline {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    background-color: #002244;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+.container {
+    width: 90%;
+    margin: 20px auto;
+}
+
+main {
+    display: flex;
+}
+
+#news {
+    width: 65%;
+    margin-right: 20px;
+}
+
+aside {
+    width: 30%;
+    background: white;
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+section {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+h2 {
+    color: #003366;
+    border-bottom: 2px solid #ffcc00;
+    display: inline-block;
+}
+
+.news-item img {
+    width: 100%;
+    height: auto;
+}
+
+.event-list {
+    margin-left: 20px;
+}
+
+.contact-box {
+    display: flex;
+    align-items: center;
+}
+
+.contact-box img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.status-online {
+    color: green;
+    font-weight: bold;
+}
+
+.action-box {
+    background-color: #fff4e5;
+    padding: 10px;
+    margin: 15px 0;
+    border-left: 4px solid orange;
+}
+
+.system-status {
+    background: #f9f9f9;
+    padding: 8px;
+    font-size: 12px;
+}
+
+.quick-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.quick-links ul li a {
+    color: #d32f2f;
+    text-decoration: none;
+}
+
+.quick-links ul li a:hover {
+    text-decoration: underline;
+    color: #003366;
+}
+
+pre {
+    background: black;
+    color: lime;
+    padding: 10px;
+    overflow-x: auto;
+}
+
+.vertical-list {
+    list-style: none;
+    padding: 0;
+}
+
+.vertical-list li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.vertical-list li a {
+    text-decoration: none;
+    color: #d32f2f;
+    display: block;
+}
+
+.vertical-list li a:hover {
+    color: #003366;
+    padding-left: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #003366;
+    color: white;
+    font-size: 14px;
+}
+
+
+
